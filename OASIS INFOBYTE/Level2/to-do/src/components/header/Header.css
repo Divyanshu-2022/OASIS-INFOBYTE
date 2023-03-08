@@ -1,0 +1,46 @@
+.app__holder{
+   margin: 0 auto;
+   border-radius: 15px;
+   background: cornflowerblue;
+}
+.app__Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.content__wrapper {
+    background-color: var(--bg-2);
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.emptyText {
+    /* display: inline-block; */
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--black-2);
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    background-color: var(--gray-2);
+    width: max-content;
+    height: auto;
+}
+
+
+.button__primary {
+    margin-left: 1rem;
+    background-color:purple;
+    color: var(--white);
+}
+
+.button__secondary {
+    margin-right: 1rem;
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+
